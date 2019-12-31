@@ -7,27 +7,13 @@ package org.mbach.lemonde;
  * @since 2017-05
  */
 public final class Constants {
+    
 
-    private static final String RSS_FULL = "/rss_full.xml";
+    public static final String BASE_URL = "https://rss-bridge.snopyta.org/";
+    public static final String BASE_URL2 = "https://rss-bridge.snopyta.org/";
 
-    public static final String BASE_URL = "https://www.lemonde.fr/";
-    public static final String BASE_URL2 = "https://www.lemonde.fr";
-    public static final String LOGIN_URI = "https://secure.lemonde.fr/sfuser/connexion";
-
-    public static final String CAT_NEWS = "rss/une.xml";
-    public static final String CAT_INTERNATIONAL = "international" + RSS_FULL;
-    public static final String CAT_POLITICS = "politique" + RSS_FULL;
-    public static final String CAT_SOCIETY = "societe" + RSS_FULL;
-    public static final String CAT_ECONOMY = "economie" + RSS_FULL;
-    public static final String CAT_CULTURE = "culture" + RSS_FULL;
-    public static final String CAT_IDEAS = "idees" + RSS_FULL;
-    public static final String CAT_PLANET = "planete" + RSS_FULL;
-    public static final String CAT_SPORTS = "sport" + RSS_FULL;
-    public static final String CAT_SCIENCES = "sciences" + RSS_FULL;
-    public static final String CAT_PIXELS = "pixels" + RSS_FULL;
-    public static final String CAT_CAMPUS = "campus" + RSS_FULL;
-    public static final String CAT_DECODERS = "les-decodeurs" + RSS_FULL;
-    public static final String CAT_VIDEOS = "videos" + RSS_FULL;
+    public static final String CAT_NEWS = "?action=display&bridge=Facebook&context=User&u=thevigilantenews&media_type=all&limit=-1&format=Atom
+";
 
     public static final String EXTRA_RSS_ARTICLE_ID = "RSS_ARTICLE_ID";
     public static final String EXTRA_RSS_LINK = "RSS_LINK";
